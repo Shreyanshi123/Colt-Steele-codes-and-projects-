@@ -1,0 +1,29 @@
+article{
+    font-size:20px;
+}
+h2{
+    font-size:5em;
+    margin-left: 1em;
+    /* 1 em will be equal to the current font-size of the element itself it means that the margin left will be equal to the exact font size of the element h2  */
+}
+h3{
+    font-size: 1.5em;
+}
+p{
+    font-size: 1em;
+}
+button{
+    background-color:#00b4d8;
+    color:#1d3557;
+    /* font-size: 80px;
+    padding: 0 30px;
+border-radius: 15px; */
+/* if we increase the font size of the button we are not getting the desired result so we need em */
+font-size: 1em;
+/* font size of article */
+padding: 0 1em;
+/* paddinbg will be the font size of button */
+border-radius: 0.5em;
+/* border radius will be equal to the font size half of button ie 10px */
+}
+    

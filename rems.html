@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rems units</title>
+    <link rel="stylesheet" href="em.css">
+    <link rel="stylesheet" href="rems.css">
+</head>
+<body>
+    now what is the problem with ems
+    <h1>css units</h1>
+    <article>
+        <h2>i am h2 
+        <h3>i m h3</h3>
+        <button>Click Me</button>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sapiente corrupti optio dolorum.
+        </p>
+        <ul>
+            <li>pasta
+                <ul>
+                    <li>ravioli
+                    <ul>
+                    <li>spinach and ricotta</li>
+                    </ul>
+                    </li>
+                    <li>penne</li>
+                </ul>
+            </li>
+            <li>salad</li>
+            <li>Kimchi</li>
+        </ul>
+        <!-- here ul is getting the font size of respected element parent  article -->
+        <!-- like li such as pasta and salad are getting the font size of ul ie inherited by ul -->
+        <!-- now ul under li pasta is getting the font size of pasta [font size of pasta is 30px] and here ul is getting ther font size of {1.5 times the value of its 1st parent ie pasta } and thus getting the vaue of 45px -->
+        <!-- now inside ravioli[45px] spinach and pasta is getting the font size relative to its 1st parent ie ravioli { and thus getting its value increased by 1.5 times the value of ravioli}  -->
+    </article>
+    font size of article=20px
+    font size of ul(main-1st)=1.5*20=30px
+    font size of li(1st )=30px{inherited from ul}
+    font size of ul(inside li pasta)=1.5*30=45{pasta ka 1.5em}
+    font size of li{ ravioli}=45 {inherited from ul}
+    font size of ul{inside ravioli}=1.5*45{ravioli font size*1.5}
+    =
+
+</body>
+    
+</html>

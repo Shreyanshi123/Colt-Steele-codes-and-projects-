@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+#one{
+    width: 200px;
+    height: 200px;
+    background-color:#f5f5d1;
+    border-width: 5px;
+    /* we generally use px for borders because it will somehow remains kinda similar in every device and in fact we need smaller border  */
+    /* we didnt see anything because we have not set the border color and border style  */
+    border-color: #03045e;
+    /* we still dont see anything because we are missing border style  */
+    border-style: solid;
+    /* box-sizing: border-box; */
+margin-left: 50px;
+margin-bottom:100px;
+}
+#two{
+    width:200px;
+    height:200px;
+    background-color:#e63946;
+    border-color: 
+    #fcd5ce;
+    border-width: 3px;
+    border-style: dashed;
+    border-left-width: 8px;
+    padding-right: 50px;
+    margin: 200px;
+}
+#three{
+    width: 200px;
+    height: 200px;
+    background-color: #fec89a;
+    border:  4px ridge #7f5539;
+    border-radius: 50%;
+    /* border style and color works  */
+/* border-left-style: hidden;   */
+    
+}
+h1{
+    margin: 0;
+    width: 300px;
+    /* border: inherit; */
+    /* border inherit means inheriting from the parents {first } */
+    background-color:#f4a261;
+    /* /* width: 200px; */
+ border: slateblue 10px groove; 
+ padding-left: 130px;
+ padding-top: 50px;
+ /* border-radius: 50%; */
+ /* for border radius percentage is used by colt  */
+ /* why because border radius as percentage for the horizontal axis is the width of the box and peercentage for the vertical axis is the height of the box like ellipse                                               */
+    /* order not matters like  */
+    /* width style color */
+    /* or color width and style  */
+}
+span{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+button{
+    padding: 10px 20px 30px 40px;
+    border: 2px solid black;
+    border-radius: 3%;
+} 

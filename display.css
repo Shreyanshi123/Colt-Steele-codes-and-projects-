@@ -1,0 +1,40 @@
+/* h1{
+    background-color: palegoldenrod;
+    border: 1px solid black;
+    display: inline;
+}
+span{
+    background-color: paleturquoise;
+    border: 1px solid black;
+    /* margin: 1px; */
+    /* display: block; */
+/* } */ 
+span{
+    /* background-color: palegreen; */
+    border: 1px solid black ;
+    width: 500px;
+    /* since the element is inline width and height is often ignored */
+    /* padding: 10px; */
+    /* so padding is respected */
+    padding: 50px;
+    /* its like it is sitting on top of it and not taking spcae  */
+    /* pading os only respected in  horizontal same as margin  */
+    margin: 50px;
+}
+h1{
+    /* height:100px; */
+    background-color: plum;
+    border: 1px solid black;
+    width:300px;
+    padding: 50px;
+    margin: 100px;
+    display:  none;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #52b788;
+    border: 5px solid black;
+    display: inline-block;
+    margin: 50px;
+}
